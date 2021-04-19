@@ -11,5 +11,5 @@
 - UI design concepts
 
 ## Author ##
-written and maintained by [Sasha Lukas](https://sashalukas.netlify.app/>)
+written and maintained by [Sasha Lukas](https://sashalukas.netlify.app)
 
