@@ -3,6 +3,8 @@
 
 ### Demo ###
 
+[Live Google](https://slukas111.github.io/google/)
+
 ### Features ###
 - static website that is a clone of a popular page
 - Custom HTML5 
