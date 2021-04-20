@@ -5,20 +5,26 @@ body, html {
 }
 
 .user {
-    height: 20px;
-    width: 20px;
+    margin-top: -5px;
+    height: 30px;
+    width: 30px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
 }
-
-#nav {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 15px;
+#nav-right{
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
-#nav a {
+#nav-left {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15px;
+}
+
+
+#nav-left a, #nav-right a {
     margin-right: 20px;
 }
 
@@ -38,21 +44,43 @@ body, html {
 }
 
 button {
-    margin-top: 20px;
-    background-color: rgb(247, 243, 243);
+    margin-top: 10px;
+    background-color: rgba(247, 246, 246, 0.934);
     border: none;
     color:black;
     padding: 15px 20px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 14px;
     border-radius: 5px;
     margin-right: 20px;
+    text-decoration: none;
+    outline: none;
   }
 
 .search-center {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.foo {
+    background-color: rgb(228, 228, 228);
+    height: 20%;
+    color: rgb(130, 129, 129);
+    text-align: center;
+}
+
+.link {
+    margin-right: 25px;
 }
