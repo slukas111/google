@@ -1,104 +1,118 @@
-body, html {
-    margin: 0;
-    height: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+body,
+html {
+  margin: 0;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .user {
-    margin-top: -5px;
-    height: 30px;
-    width: 30px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 20px;
+  margin-top: -5px;
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 20px;
 }
-#nav-right{
-    margin-top: 20px;
-    margin-left: 20px;
+#nav-right {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 #nav-left {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -15px;
 }
 
-
-#nav-left a, #nav-right a {
-    margin-right: 20px;
+#nav-left a,
+#nav-right a {
+  margin-right: 20px;
 }
 
-.logo, .search-container {
-    margin: 30px auto 20px auto;
-    display: block;
-    width: 30%;
+.logo,
+.search-container {
+  margin: 30px auto 20px auto;
+  display: block;
+  width: 30%;
 }
 
 #search {
-    width: 100%;
-    height: 30px;
-    border: none;
-    outline: none;
-    padding: 5px 15px 0px 15px;
-    text-decoration: none;
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 5px 15px 0px 15px;
+  text-decoration: none;
 }
 
 button {
-    margin-top: 10px;
-    background-color: rgba(247, 246, 246, 0.934);
-    border: none;
-    color:black;
-    padding: 15px 20px;
-    font-size: 14px;
-    border-radius: 5px;
-    margin-right: 20px;
-    text-decoration: none;
-    outline: none;
-    display: inline-block;
-    text-align: center;
+  margin-top: 10px;
+  background-color: rgba(247, 246, 246, 0.934);
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-right: 20px;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  text-align: center;
 }
 .button-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
 .search-container {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid gainsboro;
-    height: 40px;
-    width: 50%;
-    padding: 0px 10px 0px 10px;
-    border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gainsboro;
+  height: 40px;
+  width: 50%;
+  padding: 0px 10px 0px 10px;
+  border-radius: 20px;
 }
-.icon {
-    height: 20px;
-    margin-top: 10px;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: black;
-    cursor: default;
+.search-icon {
+  height: 20px;
+  margin-top: 10px;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
+.nav-link, .footer-link {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+
+.nav-link:hover, .footer-link:hover {
+  text-decoration: underline;
 }
 
 .foo {
-    background-color: rgb(228, 228, 228);
-    height: 20%;
-    color: rgb(130, 129, 129);
-    text-align: center;
+  background-color: rgb(228, 228, 228);
+  height: 20%;
+  color: rgb(130, 129, 129);
+  text-align: center;
+}
+
+.footer-link {
+    margin-right: 3%;
+    display: block;
+    margin-top: 40px;
+    color:rgb(130, 129, 129);
+    
+    
 }
 
 .link {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
-.google-app:hover, .user:hover, button:hover, .search-container:hover {
-    box-shadow: 0 0 20px 0 rgb(210, 207, 207);
+.google-app:hover,
+.user:hover,
+button:hover,
+.search-container:hover {
+  box-shadow: 0 0 20px 0 rgb(210, 207, 207);
 }
