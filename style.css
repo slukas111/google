@@ -11,6 +11,7 @@ body, html {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+    margin-left: 20px;
 }
 #nav-right{
     margin-top: 20px;
@@ -28,19 +29,19 @@ body, html {
     margin-right: 20px;
 }
 
-.logo, #search {
+.logo, .search-container {
     margin: 30px auto 20px auto;
     display: block;
     width: 30%;
 }
 
 #search {
-    width: 50%;
-    height: 40px;
-    border-radius: 20px;
-    border: 1px solid #bbb;
+    width: 100%;
+    height: 30px;
+    border: none;
     outline: none;
-    padding: 0px 25px 0px 55px;
+    padding: 5px 15px 0px 15px;
+    text-decoration: none;
 }
 
 button {
@@ -49,19 +50,32 @@ button {
     border: none;
     color:black;
     padding: 15px 20px;
-    text-align: center;
-    display: inline-block;
     font-size: 14px;
     border-radius: 5px;
     margin-right: 20px;
     text-decoration: none;
     outline: none;
-  }
-
-.search-center {
+    display: inline-block;
+    text-align: center;
+}
+.button-container {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gainsboro;
+    height: 40px;
+    width: 50%;
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+}
+.icon {
+    height: 20px;
+    margin-top: 10px;
 }
 
 .nav-link {
@@ -83,4 +97,8 @@ button {
 
 .link {
     margin-right: 25px;
+}
+
+.google-app:hover, .user:hover, button:hover, .search-container:hover {
+    box-shadow: 0 0 20px 0 rgb(210, 207, 207);
 }
